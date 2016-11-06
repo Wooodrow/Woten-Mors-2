@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="272.68127mm"
+   height="61.26733mm"
+   viewBox="0 0 272.68127 61.26733"
+   id="svg3386"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   inkscape:export-filename="C:\Users\Wood\Documents\2015\CMGT445\HuffmanComplete\HuffmanComplete\img\WotenHeader.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90"
+   sodipodi:docname="WotenHeader.svg">
+  <defs
+     id="defs3388">
+    <filter
+       inkscape:label="Silk Carpet"
+       inkscape:menu="Textures"
+       inkscape:menu-tooltip="Silk carpet texture, horizontal stripes"
+       style="color-interpolation-filters:sRGB"
+       id="filter3525"
+       height="1.3"
+       width="1.3"
+       y="-0.15000001"
+       x="-0.15000001">
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1000 -500 "
+         id="feColorMatrix3527"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix3529" />
+      <feTurbulence
+         id="feTurbulence3531"
+         numOctaves="1"
+         baseFrequency="0.002 0.107" />
+      <feColorMatrix
+         id="feColorMatrix3533"
+         values="2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0.5"
+         result="result91" />
+      <feDisplacementMap
+         id="feDisplacementMap3535"
+         in2="result91"
+         yChannelSelector="A"
+         xChannelSelector="R"
+         scale="14.3"
+         in="fbSourceGraphic"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix3557" />
+      <feTurbulence
+         id="feTurbulence3559"
+         type="turbulence"
+         numOctaves="2"
+         baseFrequency="0.01 0.11"
+         seed="10" />
+      <feColorMatrix
+         id="feColorMatrix3561"
+         result="result5"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1.3 0 " />
+      <feComposite
+         id="feComposite3563"
+         in2="result5"
+         in="fbSourceGraphic"
+         operator="out" />
+      <feMorphology
+         id="feMorphology3565"
+         operator="dilate"
+         radius="1.3"
+         result="result3" />
+      <feTurbulence
+         id="feTurbulence3567"
+         numOctaves="3"
+         baseFrequency="0.08 0.05"
+         type="fractalNoise"
+         seed="7"
+         result="result6" />
+      <feGaussianBlur
+         id="feGaussianBlur3569"
+         stdDeviation="0.5"
+         result="result7" />
+      <feDisplacementMap
+         id="feDisplacementMap3571"
+         in2="result7"
+         in="result3"
+         xChannelSelector="R"
+         yChannelSelector="G"
+         scale="3"
+         result="result4" />
+      <feComposite
+         id="feComposite3573"
+         in2="result4"
+         in="result4"
+         k1="1"
+         result="result2"
+         operator="arithmetic"
+         k2="1"
+         k3="0"
+         k4="0" />
+      <feBlend
+         id="feBlend3575"
+         in2="result4"
+         mode="normal"
+         in="result2" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     inkscape:document-units="mm"
+     pagecolor="#948a8a"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.43415836"
+     inkscape:cx="609.07195"
+     inkscape:cy="-166.58982"
+     inkscape:current-layer="layer1"
+     id="namedview3390"
+     showgrid="false"
+     inkscape:window-width="1360"
+     inkscape:window-height="706"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="-4.2"
+     fit-margin-right="0"
+     fit-margin-bottom="-5.8" />
+  <metadata
+     id="metadata3392">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(36.356998,-30.180396)">
+    <g
+       id="g3372"
+       transform="matrix(0.90983733,0,0,0.7556698,-38.254235,26.315754)">
+      <rect
+         transform="matrix(0.95258453,0,0,1.0113035,3.1734204,-30.108418)"
+         y="38.388271"
+         x="1.9501333"
+         height="74.755112"
+         width="294.47012"
+         id="rect3401"
+         style="fill:#800000;fill-rule:evenodd;stroke:#000000;stroke-width:0.28222221px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter3525)" />
+      <text
+         transform="scale(1.0380158,0.96337645)"
+         sodipodi:linespacing="100%"
+         id="text3513"
+         y="73.903244"
+         x="1.5622507"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:62.44676971px;line-height:100%;font-family:'Informal Roman';-inkscape-font-specification:'Informal Roman, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:62.44676971px;line-height:100%;font-family:'Informal Roman';-inkscape-font-specification:'Informal Roman, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start"
+           y="73.903244"
+           x="1.5622507"
+           id="tspan3515"
+           sodipodi:role="line">Woten-Mors</tspan></text>
+      <flowRoot
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="flowRoot3517"
+         xml:space="preserve"><flowRegion
+           id="flowRegion3519"><rect
+             y="154.44789"
+             x="80.615746"
+             height="48.369446"
+             width="128.9852"
+             id="rect3521" /></flowRegion><flowPara
+           id="flowPara3523" /></flowRoot>    </g>
+  </g>
+</svg>

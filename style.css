@@ -1,0 +1,226 @@
+/* Body */
+   
+body {
+	background:#BCBCBC;
+	color: #000;
+	font-size: .9em; 
+	font-family: Arial, Verdana, sans-serif;
+	line-height: 2em;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	}
+	
+.body {
+	clear: both; 
+	margin: 0 auto; 
+	width: 100%;
+}
+
+#MainHeader #WotenLogo { width:100%; height:100%; }
+
+ {
+	
+	
+	background-image: url(./img/WotenHeader.svg);
+	background-repeat: no-repeat;
+
+}
+
+#Nav{
+	background-color:#222;
+	border-top-left-radius:1em;
+	border-top-right-radius:1em;
+	float:left;	
+	width:100%;
+}
+#Nav-Wrapper{
+	width:auto;
+	height:60%;
+	margin: 0 auto;
+	text-align: left;	
+}
+#Nav ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	position: relative;
+}
+#Nav-Wrapper ul form{
+		display:inline;	
+}
+#Nav ul li{
+		display:inline-block;
+		margin: 0 2% 0 2%;	
+}
+
+#Nav ul li:hover{
+	background-color: #333;
+}
+#Nav ul li a,visited{
+		color:#ccc;
+		display:block;
+		padding:15px;
+		text-decoration:none;	
+}
+#Nav ul li a:hover{
+	color:#ccc;
+	text-decoration:none;
+}
+#Nav ul li:hover ul{
+	display:block;	
+}
+#Nav ul ul{
+	display:none;
+	position:absolute;
+	background-color:#333;
+	border:	5px solid #222;
+	border-top:0;
+	margin-left:-px
+}
+#Nav ul ul li{
+	display:block;	
+}
+#Nav ul ul li a,visited{
+	color:#ccc;	
+}
+#Nav ul ul li a,hover{
+	color:#09C;	
+}
+
+/* Anchor style */
+a {
+	outline:hidden;
+	}
+
+a img {
+	border: 0; 
+	text-decoration: none;
+}
+
+a:link, a:visited {
+	color: #921618;
+	padding: 0 1px;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	background-color: #921618;
+	color: #fff;
+	text-decoration: none;
+}
+
+/*  Main Navigation */
+   
+.mainHeader nav {
+	background: #000;
+	font-size: 1.143em;
+	height: 40px;
+	line-height: 30px;
+	margin: 0 auto 30px auto;
+	text-align: center;
+	border-radius: 5px;
+}
+	
+.mainHeader nav ul {
+	list-style: none; 
+	margin: 0 auto;
+}
+
+.mainHeader nav ul li {
+	float: left; 
+	display: inline; 
+}
+	
+.mainHeader nav a:link, .mainHeader nav a:visited {
+	color: #fff;
+	display: inline-block;
+	height: 30px;
+	padding: 5px 23px;
+	text-decoration: none;
+}
+.mainHeader nav a:hover, .mainHeader nav a:active,
+.mainHeader nav .active a:link, .mainHeader nav .active a:visited {
+	background: #921618;
+	color: #fff;
+	text-shadow: none !important;
+}
+	
+.mainHeader nav li a {
+	border-radius:0;
+}
+
+.mainHeader img {
+	width: 30%;
+	height: auto;
+	margin: 3% 0;
+}
+.body #Flavorpic img{
+	margin:0;
+	padding:0;
+	border:1%;
+}
+
+/* Content Area */
+
+.mainContent {
+	width: 55%;
+	float: left;
+	background:#fff;
+	overflow: hidden;
+	line-height: 2em;
+	border-top-right-radius:.5em;
+	padding:1em;
+	margin-top:	.5em;
+	margin-bottom:0;
+}
+.post-info {
+	font-style: italic;
+	color: #999;
+	font-size: 85%;
+}
+
+/* Sidebar */
+
+.sidebar {
+	width:39%;
+	float: right;
+	margin-left: .5em;
+	border-top-left-radius:.5em;
+	background-color: #FFF;	
+	padding: 1em 1em;
+	margin-top:	.4em;
+	margin-bottom:0;
+}
+
+/* Footer */
+
+.mainFooter {
+	width:99%;
+	float: left;
+	margin-top: .5em;
+	margin-bottom: 1em;
+	padding-left: 1em;
+	background-color: #000;
+	border-bottom-left-radius:1em;
+	border-bottom-right-radius:1em;
+	color: #FFF;	
+}
+.mainFooter #Navigation{
+	align-content:center;
+	width:30em;
+	margin: 1em auto;}
+.mainFooter p {
+	align-content:Right;
+	width: 7em;
+	margin: 1em auto;
+}
+
+.footer .body .footer table tbody tr th a {
+	margin: 0;
+	padding:0;
+	font-family: Impact, Haettenschweiler, Franklin Gothic Bold, Arial Black, sans-serif;
+	text-align:center;
+	color:#09c;
+	
+}
